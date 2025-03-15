@@ -1,0 +1,37 @@
+{
+  "version": 4,
+  "name": "unleashedrecomp.zip",
+  "items": [
+    "Sonic Unleashed Recomp.sh",
+    "unleashedrecomp"
+  ],
+  "items_opt": [],
+  "attr": {
+    "title": "Sonic Unleashed Recompiled",
+    "porter": [
+      "Jeod",
+      "kotzebuedog"
+    ],
+    "desc": "Unleashed Recompiled is an unofficial PC port of the Xbox 360 version of Sonic Unleashed created through the process of static recompilation. The port offers numerous built-in enhancements such as high resolutions, ultrawide support, high frame rates, improved performance and modding.",
+    "desc_md": null,
+    "inst": "The recomp installer does not support a headless window system and will crash on trying to open a file browser window to locate game assets. After installing this wrapper, you must install the game files from a desktop installation. The folder structure has been created for convenience--simply copy the *same* folders from your desktop installation to `ports/unleashedrecomp`.",
+    "inst_md": null,
+    "genres": [
+      "action",
+      "adventure"
+    ],
+    "image": null,
+    "rtr": false,
+    "exp": false,
+    "runtime": [],
+    "store": [],
+    "availability": "paid",
+    "reqs": [
+	  "ultra"
+	],
+    "arch": [
+      "aarch64"
+    ],
+    "min_glibc": ""
+  }
+}
