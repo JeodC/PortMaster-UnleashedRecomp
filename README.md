@@ -5,7 +5,7 @@ This wrapper is made for retro handhelds to run Unleashed Recompiled. The binary
 The recomp installer does not support a headless window system and will crash on trying to open a file browser window to locate game assets. After installing this wrapper, you must install the game files from a desktop installation. The folder structure has been created for convenience--simply copy the *same* folders from your desktop installation to `ports/unleashedrecomp`.
 
 ## Settings Recommendations
-On arm64 handhelds, the port runs best with low res shadows and 30fps.
+On arm64 handhelds, the port runs best with low res shadows and 30-60fps with bilinear filtering. On the Retroid Pocket Mini, setting internal resolution to 50% (640x480) will increase stability.
 
 ## Mods
 Mods will work without HedgeModManager, but require manual installation and setup. In your `ports/unleashedrecomp/mods` folder you'll find a file `ModDB.ini`. Open it and modify it:
