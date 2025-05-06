@@ -18,7 +18,7 @@ git clone --recurse-submodules -b switch https://github.com/arexdiaz/UnleashedRe
 cd UnleashedRecomp
 ```
 
-At this point, gather the above files and place thenm in `./UnleashedRecompLib/private/`. Next you must build `libdxcompiler.so` or it will be missing during the Recomp build.
+At this point, gather the above files and place them in `./UnleashedRecompLib/private/`. Next you must build `libdxcompiler.so` or it will be missing during the Recomp build.
 
 Build it and copy the final result to `/UnleashedRecomp/tools/XenosRecomp/thirdparty/dxc-bin/lib/arm64/libdxcompiler.so`.
 
